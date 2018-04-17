@@ -1,7 +1,7 @@
 class Student < User
   
   def new(first_name, last_name, knowledge)
-    super
+    super(first_name, last_name)
     @knowledge = []
   end
  
