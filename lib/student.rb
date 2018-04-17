@@ -1,3 +1,5 @@
+require "user"
+
 class Student < User
   attr_accessor :user, :knowledge 
   
