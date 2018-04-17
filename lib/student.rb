@@ -1,7 +1,7 @@
 class Student < User
- 
-  def new
-    super
+  attr_accessor :knowledge
+  
+  def initialize
     @knowledge = []
   end
  
