@@ -1,6 +1,6 @@
 class Student < User 
   
-  def self.new(knowledge)
+  def new(knowledge)
     @knowledge = []
   end
 end
