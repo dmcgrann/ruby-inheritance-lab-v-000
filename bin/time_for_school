@@ -14,7 +14,7 @@ avi.last_name = "Flombaum"
 
 dan = Student.new
 dan.first_name = "Dan"
-doe.last_name = "Doe"
+dan.last_name = "Doe"
 
 
 jim = User.new
