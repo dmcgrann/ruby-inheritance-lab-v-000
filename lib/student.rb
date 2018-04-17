@@ -1,10 +1,8 @@
-require_relative "./user.rb"
-
 class Student < User
-  attr_accessor :user, :knowledge 
+  attr_accessor :knowledge 
   
-  def new(user, knowledge) 
-    @user = user
+  def new(knowledge) 
+    super
     @knowledge = []
   end
  
