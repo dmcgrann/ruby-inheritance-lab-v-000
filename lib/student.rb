@@ -1,4 +1,5 @@
 class Student < User
+  attr_accessor :knowledge
   
   def new(knowledge)  
     user.new = self
