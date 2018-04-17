@@ -2,7 +2,7 @@ class Student < User
   attr_accessor :knowledge 
   
   def new(knowledge) 
-    super
+    super(first_name, last_name)
     @knowledge = []
   end
  
