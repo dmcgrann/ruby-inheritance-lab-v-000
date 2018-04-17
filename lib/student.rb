@@ -1,5 +1,4 @@
 class Student < User
-  include User
  
   def new
     @knowledge = []
