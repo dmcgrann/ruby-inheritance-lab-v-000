@@ -2,6 +2,7 @@ class Student < User
   
   def self.new
     @knowledge = []
+    @last_name = last_name
   end
   
   
