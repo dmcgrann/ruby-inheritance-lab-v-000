@@ -1,7 +1,7 @@
 class Student < User
-  attr_accessor :user 
+  attr_accessor :user, :knowledge 
   
-  def new 
+  def new(user, knowledge) 
     @user = self.new
     @knowledge = []
   end
