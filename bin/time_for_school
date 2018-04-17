@@ -31,4 +31,4 @@ more_knowledge = avi.teach
 
 dan.learn(more_knowledge)
 
-puts "Dan learned something!"
+puts "Dan learned something: #{dan.knowledge.second}
