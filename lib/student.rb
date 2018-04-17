@@ -1,5 +1,6 @@
-class Student < User 
+class Student
   
+  def initialize
   
   
   def learn(string)
