@@ -27,4 +27,8 @@ steve.learn(some_knowledge)
 
 puts "Steve just learned this important knowledge: '#{steve.knowledge.first}' from Avi"
 
-jim.learn
+more_knowledge = avi.teach
+
+dan.learn(more_knowledge)
+
+puts "Dan learned something!"
