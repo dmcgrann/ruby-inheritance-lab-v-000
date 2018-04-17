@@ -1,8 +1,9 @@
 class Student < User
   attr_accessor :knowledge 
   
-  def new
+  def new(first_name, last_name)
     super
+    @knowledge = []
   end
  
   
